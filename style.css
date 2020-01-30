@@ -4,11 +4,11 @@ body {
   }
   
   h1 {
-    color: blue;
+    color: lightgoldenrodyellow;
     text-align: center;
   }
   
   p {
-    font-family: verdana;
-    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
   }
