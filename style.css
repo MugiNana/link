@@ -1,14 +1,56 @@
-
 body {
-    background-color: lightseagreen;
-  }
+  background-color: lightseagreen;
+  background-image: url("images/danceham.gif");
+  background-size: 500px 200px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  color: white;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  font-size: 50px;
+  padding-left: 100px;
+  line-height: 0.5;
+}
+h3 {
+  color: white;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  font-size: 30px;
+  padding-left: 100px;
+  line-height: 0.5;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 100px;padding-right: 100px;
+  background-color: aliceblue;
+  background-clip: border-box;
   
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: Helvetica, sans-serif;
-    font-size: 30px;
-  }
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.button1 {
+  background-color: #008cba; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 12px;
+}
