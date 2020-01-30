@@ -7,14 +7,14 @@ body {
 h1 {
   color: white;
   text-align: center;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
 }
 
 h2 {
   color: white;
   text-align: left;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   padding-left: 100px;
   line-height: 0.5;
@@ -22,26 +22,45 @@ h2 {
 h3 {
   color: white;
   text-align: left;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   padding-left: 100px;
   line-height: 0.5;
 }
 
 p {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   text-align: justify;
-  padding-left: 100px;padding-right: 100px;
-  background-color: aliceblue;
-  background-clip: border-box;
-  
-
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgba(240, 248, 255, 0.486);
+  background-clip: content-box;
 }
-
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
 a {
   text-decoration: none;
   color: white;
+}
+
+li {
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-size: 15px;
 }
 .button1 {
   background-color: #008cba; /* Green */
@@ -52,5 +71,61 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
+  border-radius: 12px;
+  align
+}
+.button2 {
+  background-color: #8d2a2a; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+}
+.button6 {
+  background-color: #d6ab1c; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.button3 {
+  background-color: #234d07; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+}
+.button4 {
+  background-color: #1f4f8d; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+}
+.button5 {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
   border-radius: 12px;
 }
